@@ -13,7 +13,7 @@ func main() {
     fmt.Printf("%g,%g\n", gcjLat, gcjLng)
 
 
-    a := 23.011834
+    a := 24.011834
     b := 113.370867
 
     bdLng, bdLat := coordinate.Wgs84ToBd09(b, a)
