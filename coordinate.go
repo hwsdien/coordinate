@@ -72,8 +72,8 @@ func Gcj02ToWgs84(longitude, latitude float64) (float64, float64) {
         return longitude, latitude
     }
 
-    dLat := transformLatitude(longitude - 105.0, latitude - 35.0);
-    dLng := transformLongitude(longitude - 105.0, latitude - 35.0);
+    dLat := transformLatitude(longitude - 105.0, latitude - 35.0)
+    dLng := transformLongitude(longitude - 105.0, latitude - 35.0)
     radLat := latitude / 180.0 * pi
     magic := math.Sin(radLat)
     magic = 1 - ee * magic * magic
