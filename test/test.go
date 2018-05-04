@@ -18,4 +18,8 @@ func main() {
 
     bdLng, bdLat := coordinate.Wgs84ToBd09(b, a)
     fmt.Printf("%g,%g\n", bdLat, bdLng)
+
+
+
+
 }
